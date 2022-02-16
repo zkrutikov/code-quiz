@@ -23,12 +23,20 @@
     </div>
         <!-- Quiz Header container -->
         <div id='quizHeader'>
-          <h1>Welcome to Code Quiz</h1>
+          <h1>Welcome to Code Quiz</h1> 
+        </div>
+        
+        <div id="userInputContainer">
+            <form class="hide" action="" method="get" id="userInput">
+                <label for="name">Please enter your name: </label>
+                <input type="text" name="name" id="userName" required>
+                <input type="submit" value="Submit" id="submitForm">
+            </form>
         </div>
 
         <!-- Quiz questions container -->
         <div id="questionsContainer">
-
+            
         </div>
         <!-- Quiz answers container -->
         <div id="answersContainer">
@@ -39,7 +47,7 @@
         <div id="navigationContainer">
             <button id="startBtn" class="navBtn">Start</button>
             <button id="nextQuestionBtn" class="navBtn hide">Nex Question</button>
-            <button id="submitBtn" class="navBtn hide">Submit</button>
+            <button id="submitBtn" class="navBtn hide" type="submit">Submit</button>
         </div>
     </div>
     </section>
